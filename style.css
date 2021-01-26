@@ -3,13 +3,13 @@ h1{
     font-family: 'Bebas Neue', cursive;
     font-weight: 700;
 }
-.hero-div{
+.half-width{
     width: 40%;
-    margin: 3%;
+    margin: 2% 3%;
     padding: 0 2%;
     float: left;
 }
-.hero-div img{
+.half-width img{
     width: 90%;
 }
 
@@ -23,8 +23,9 @@ h1{
 p{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
+    text-align: justify;
 }
-#herp-para-lifted{
+#hero-para-lifted{
     margin-top: -40px;
     margin-bottom: 40px;
 }
@@ -37,7 +38,46 @@ p{
     border-radius: 5px;
     font-weight: 700;
 }
-
-.hero-sec{
-    height: 550px;
+.intro-sec{
+    height: 600px;
+}
+.about-sec{
+    height: 650px;
+}
+.project-area{
+    height: 600px;
+    padding-top: 50px;
+}
+#padded-down{
+    padding-top: 70px;
+}
+h2{
+    font-size: 48px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 700;
+    color: #363958; 
+}
+#gap-made{
+    padding-bottom: 20px;
+}
+.project-area{
+    background-color: #E5E5E5;
+}
+.one-third-width{
+    margin-left:3%;
+    padding-left: 2%;
+    float: left;
+    width: 25%;
+}
+.one-third-width img{
+    width: 100%;
+}
+#name-color{
+    color: #F46060;
+}
+#text-centered{
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Bebas Neue', cursive;
+    padding-bottom: 30px;
 }
